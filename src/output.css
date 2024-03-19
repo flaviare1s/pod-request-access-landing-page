@@ -543,3 +543,7 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.font-Chivo {
+  font-family: Chivo, sans-serif;
+}
