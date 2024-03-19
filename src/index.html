@@ -15,11 +15,32 @@
   <title>Frontend Mentor | Pod request access landing page</title>
 </head>
 <body class="font-Chivo">
-  Publish your podcasts everywhere.
-
-  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-  Apple Podcasts, Google Podcasts, Pocket Casts and more!
-
-  Request access
+  <div>
+    <img class="block md:hidden xl:hidden" src="../starter-code/assets/mobile/image-host.jpg" alt="Image Host">
+    <img class="hidden md:block xl:hidden" src="../starter-code/assets/tablet/image-host.jpg" alt="Image Host">
+    <img class="hidden md:hidden xl:block" src="../starter-code/assets/desktop/image-host.jpg" alt="Image Host">
+  </div>
+  <header>
+    <img src="../starter-code/assets/desktop/logo.svg" alt="Logo">
+  </header>
+  <main>
+    <h1>Publish your podcasts everywhere.</h1>
+    <p>
+      Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify,
+      Apple Podcasts, Google Podcasts, Pocket Casts and more!
+    </p>
+    <div>
+      <div>
+      <img src="../starter-code/assets/desktop/spotify.svg" alt="Spotify Icon">
+      <img src="../starter-code/assets/desktop/apple-podcast.svg" alt="Apple PodCast Icon">
+      <img src="../starter-code/assets/desktop/google-podcasts.svg" alt="Google PodCast Icon">
+      <img src="../starter-code/assets/desktop/pocket-casts.svg" alt="Pocket Casts Icon">
+      </div>
+      <form>
+        <input type="email" name="email" id="email" placeholder="Email address" required>
+        <button type="submit">Request access</button>
+      </form>
+    </div>
+  </main>
 </body>
 </html>
