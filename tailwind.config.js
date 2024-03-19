@@ -9,7 +9,9 @@ module.exports = {
       colors: {
         dark: '#121725',
         green: '#54E6AF',
+        light_green: '#B3FFE2',
         dark_gray: '#2C344B',
+        light_gray: '#C2CBE5',
       },
     },
   },
