@@ -39,13 +39,11 @@
       <img src="../starter-code/assets/desktop/google-podcasts.svg" alt="Google PodCast Icon">
       <img src="../starter-code/assets/desktop/pocket-casts.svg" alt="Pocket Casts Icon">
       </div>
-      <form class="mt-12 px-6 flex flex-col md:flex-row justify-center items-center">
-        <div class="flex flex-col w-full">
-          <input class="w-full md:w-[70%] px-8 h-[46px] md:h-14 bg-dark_gray rounded-[28px] placeholder:text-sm font-bold leading-[28px] text-white md:relative" type="email" name="email" id="email" placeholder="Email address" required>
-          <span class="text-red text-xs font-bold px-8 md:absolute md:bottom-16" id="error"></span>
-        </div>
-        <button id="submit" class="mt-4 w-full px-8 h-[46px] md:h-[44px] bg-green rounded-[28px] text-dark text-sm font-bold leading-[28px] hover:bg-light_green md:absolute md:w-[27%] md:right-[33%] md:bottom-[17%]" type="submit">Request access</button>
+      <form class="mt-12 px-6 flex flex-col md:flex-row justify-center md:justify-start items-center relative">
+        <input class="w-full md:w-[70%] px-8 h-[46px] md:h-14 bg-dark_gray rounded-[28px] placeholder:text-sm font-bold leading-[28px] text-white md:relative" type="email" name="email" id="email" placeholder="Email address" required>
+        <button id="submit" class="mt-4 w-full px-8 h-[46px] md:h-[46px] bg-green rounded-[28px] text-dark text-sm font-bold leading-[28px] hover:bg-light_green md:absolute md:w-[27%] md:right-[32%] md:bottom-[10%]" type="submit">Request access</button>
       </form>
+      <span class="text-red text-xs font-bold px-12 absolute bottom-12" id="error"></span>
     </div>
   </main>
   <div>
