@@ -8,6 +8,8 @@ function formValidation(event) {
         errorSpan.innerText = 'Oops! Please check your email'
     } else {
         errorSpan.innerHTML = ''
+        emailInput.value = ''
+        emailInput.placeholder = ''
     }
 }
 
